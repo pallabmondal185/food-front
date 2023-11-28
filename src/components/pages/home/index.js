@@ -1,13 +1,21 @@
-import React from 'react'
+import React from 'react';
 import Carousal from './Carousal';
-import bodyHome from './bodyOfHome/index';
+import BodyHome from './bodyOfHome/index';
+import About from '../about';
+import Feature from '../feature';
+import Menu from '../menu';
+import Chef from '../chef';
 
 const Index = () => {
     return (
         <div>
             <Carousal />
-            {/* <bodyHome /> */}
-        </div>
+            <BodyHome />
+            <About />
+            <Feature />
+            <Menu />
+            <Chef />
+        </div >
     )
 }
 

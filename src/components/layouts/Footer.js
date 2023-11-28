@@ -9,6 +9,8 @@ const Footer = () => {
                         <div className="col-lg-7">
                             <div className="row">
                                 <div className="col-md-6">
+
+                                    {/* our address */}
                                     <div className="footer-contact">
                                         <h2>Our Address</h2>
                                         <p><i className="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
@@ -23,6 +25,8 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* quick links */}
                                 <div className="col-md-6">
                                     <div className="footer-link">
                                         <h2>Quick Links</h2>
