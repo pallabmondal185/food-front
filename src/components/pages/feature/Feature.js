@@ -3,27 +3,27 @@ import React from 'react'
 const Feature = () => {
     return (
         <div>
-            <div class="feature">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="section-header">
+            <div className="feature">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5">
+                            <div className="section-header">
                                 <p>Why Choose Us</p>
                                 <h2>Our Key Features</h2>
                             </div>
-                            <div class="feature-text">
-                                <div class="feature-img">
-                                    <div class="row">
-                                        <div class="col-6">
+                            <div className="feature-text">
+                                <div className="feature-img">
+                                    <div className="row">
+                                        <div className="col-6">
                                             <img src="img/feature-1.jpg" alt="Image" />
                                         </div>
-                                        <div class="col-6">
+                                        <div className="col-6">
                                             <img src="img/feature-2.jpg" alt="Image" />
                                         </div>
-                                        <div class="col-6">
+                                        <div className="col-6">
                                             <img src="img/feature-3.jpg" alt="Image" />
                                         </div>
-                                        <div class="col-6">
+                                        <div className="col-6">
                                             <img src="img/feature-4.jpg" alt="Image" />
                                         </div>
                                     </div>
@@ -31,23 +31,23 @@ const Feature = () => {
                                 <p>
                                     Lorem ipsum dolor sit amet consec adipis elit. Phasel nec preti mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor, auctor id gravida condime, viverra quis sem. Curabit non nisl nec nisi sceleri maximus
                                 </p>
-                                <a class="btn custom-btn" href="">Book A Table</a>
+                                <a className="btn custom-btn" href="">Book A Table</a>
                             </div>
                         </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-cooking"></i>
+                        <div className="col-lg-7">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-cooking"></i>
                                         <h3>World’s best Chef</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-vegetable"></i>
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-vegetable"></i>
                                         <h3>Natural ingredients</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
@@ -55,19 +55,19 @@ const Feature = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-medal"></i>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-medal"></i>
                                         <h3>Best quality products</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-meat"></i>
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-meat"></i>
                                         <h3>Fresh vegetables & Meet</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
@@ -75,19 +75,19 @@ const Feature = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-courier"></i>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-courier"></i>
                                         <h3>Fastest door delivery</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="feature-item">
-                                        <i class="flaticon-fruits-and-vegetables"></i>
+                                <div className="col-sm-6">
+                                    <div className="feature-item">
+                                        <i className="flaticon-fruits-and-vegetables"></i>
                                         <h3>Ground beef & Low fat</h3>
                                         <p>
                                             Lorem ipsum dolor sit amet elit. Phasel nec preti mi. Curabit facilis ornare velit non vulput metus tortor

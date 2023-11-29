@@ -1,14 +1,14 @@
-import React from 'react'
-import Feature from './Feature';
+import React from 'react';
+import Booking from './Booking'
 import PageCarousal from '../../layouts/PageCarousal';
 
-const Index = () => {
+const index = () => {
     return (
         <div>
             <PageCarousal />
-            <Feature />
+            <Booking />
         </div>
     )
 }
 
-export default Index;
+export default index

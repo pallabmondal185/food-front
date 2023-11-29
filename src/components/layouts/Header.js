@@ -16,9 +16,9 @@ const Header = () => {
                             <Link to="/" className="nav-item nav-link active">Home</Link>
                             <Link to="/about" className="nav-item nav-link">About</Link>
                             <Link to="/feature" className="nav-item nav-link">Feature</Link>
-                            <Link to="" className="nav-item nav-link">Chef</Link>
-                            <Link to="" className="nav-item nav-link">Menu</Link>
-                            <Link to="" className="nav-item nav-link">Booking</Link>
+                            <Link to="/chef" className="nav-item nav-link">Chef</Link>
+                            <Link to="/menu" className="nav-item nav-link">Menu</Link>
+                            <Link to="/booking" className="nav-item nav-link">Booking</Link>
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <div className="dropdown-menu">
@@ -26,7 +26,7 @@ const Header = () => {
                                     <a href="single.html" className="dropdown-item">Blog Detail</a>
                                 </div>
                             </div>
-                            <a href="contact.html" className="nav-item nav-link">Contact</a>
+                            <Link to="/contact" className="nav-item nav-link">Contact</Link>
                         </div>
                     </div>
                 </div>

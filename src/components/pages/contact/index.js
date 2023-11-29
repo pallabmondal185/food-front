@@ -1,14 +1,14 @@
 import React from 'react'
-import About from './About'
+import ContactPage from './ContactPage'
 import PageCarousal from '../../layouts/PageCarousal'
 
-const Index = () => {
+const index = () => {
     return (
         <div>
             <PageCarousal />
-            <About />
-        </div>
+            <ContactPage />
+        </div >
     )
 }
 
-export default Index
+export default index
