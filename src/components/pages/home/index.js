@@ -1,11 +1,11 @@
 import React from 'react';
 import Carousal from './Carousal';
-import About from '../about';
-import Feature from '../feature';
-import Menu from '../menu';
-import Chef from '../chef';
-import Contact from '../contact';
-import Booking from '../booking';
+import About from '../about/About';
+import Feature from '../feature/Feature';
+import Menu from '../menu/MenuHeader';
+import Chef from '../chef/ChiefSchefs';
+import Contact from '../contact/ContactPage';
+import Booking from '../booking/Booking';
 import BlogHome from './BlogHome';
 
 const Index = () => {
